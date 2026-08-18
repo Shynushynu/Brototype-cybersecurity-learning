@@ -1,213 +1,194 @@
-Understand Cyber Security Fundamentals
-a. What is Cyber Security?
+🛡️ CYBER SECURITY FUNDAMENTALS
+🔐 A. WHAT IS CYBER SECURITY?
+Cyber Security
 
-Cyber Security is the practice of protecting computers, networks, applications, devices, and digital information from unauthorized access, attacks, damage, or disruption.
+Cyber Security is the practice of protecting computers, networks, applications, devices, and digital information from:
 
-In simple words:
+Unauthorized Access • Attacks • Damage • Disruption
 
-Cyber Security = Protecting digital systems and data from cyber threats.
+🎯 CIA TRIAD
+1. CONFIDENTIALITY
 
-Main goals of Cyber Security
+Only authorized people should access information.
 
-The three basic goals are called the CIA Triad:
+2. INTEGRITY
 
-Confidentiality – Only authorized people should access information.
-Integrity – Information should remain accurate and should not be changed improperly.
-Availability – Systems and information should be available when authorized users need them.
+Information should remain accurate and should not be changed improperly.
 
-Example:
-Online banking uses cybersecurity to protect your account information, prevent unauthorized transactions, and keep the banking service available.
+3. AVAILABILITY
 
-b. Why is Cyber Security Important?
+Systems and information should be available when authorized users need them.
 
-Today, individuals, businesses, governments, hospitals, banks, and educational institutions depend heavily on digital systems.
+🛡️ B. WHY IS CYBER SECURITY IMPORTANT?
+🔒 1. PROTECTS SENSITIVE INFORMATION
 
-Cybersecurity is important because it helps to:
+Protects passwords, personal information, financial data, business information, and other confidential data.
 
-1. Protect sensitive information
+🚫 2. PREVENTS UNAUTHORIZED ACCESS
 
-It protects passwords, personal information, financial data, business information, etc.
+Security controls prevent attackers from accessing systems and accounts.
 
-2. Prevent unauthorized access
+🦠 3. PROTECTS AGAINST MALWARE
 
-Security controls prevent attackers from entering systems and accounts.
+Helps defend against viruses, ransomware, spyware, Trojans, and other malicious software.
 
-3. Protect against malware
+🏢 4. PROTECTS BUSINESSES
 
-Cybersecurity helps defend against viruses, ransomware, spyware, and other malicious software.
+Cybersecurity reduces financial losses, service interruptions, and damage to an organization's reputation.
 
-4. Protect businesses
+👤 5. PROTECTS PRIVACY
 
-A cyberattack can cause financial losses, service interruptions, and damage to an organization's reputation.
+Helps ensure that personal and confidential information is not exposed.
 
-5. Maintain privacy
+⚖️ C. INFORMATION SECURITY vs CYBER SECURITY
+📘 INFORMATION SECURITY
 
-Cybersecurity helps ensure that personal and confidential information is not exposed.
+Information Security focuses on protecting information in any form, including:
 
-6. Ensure business continuity
+Digital Information + Paper Documents + Physical Records
 
-Security measures help organizations continue operating even when attacks occur.
+💻 CYBER SECURITY
 
-7. Protect critical infrastructure
+Cyber Security mainly focuses on protecting:
 
-Power systems, telecommunications, transportation, healthcare, and government services depend on secure digital infrastructure.
+Computers + Networks + Applications + Devices + Digital Data
 
-c. Information Security vs Cyber Security
-
-These two terms are related but not exactly the same.
-
-Information Security	Cyber Security
-Protects information and data	Protects digital systems, networks, devices and data
-Has a broader focus on information in different forms	Mainly focuses on digital/cyber environments
-Includes physical, digital, and organizational controls	Focuses heavily on cyber threats and attacks
-Example: protecting paper documents in a locked room	Example: protecting a computer from malware
-Includes confidentiality, integrity and availability	Includes protection from cyberattacks and digital threats
-Simple way to remember
-
-Information Security:
-
-Protect the information, regardless of where it exists.
-
-Cyber Security:
-
-Protect the digital world from cyber threats.
-
-Cybersecurity can therefore be considered an important part of the broader information-security field.
-
-d. Cyber Security Domains
-
-Cybersecurity consists of several important domains or areas.
-
-1. Network Security
+🧠 EASY WAY TO REMEMBER
+INFORMATION SECURITY → PROTECT THE INFORMATION
+CYBER SECURITY → PROTECT THE DIGITAL WORLD
+🌐 D. CYBER SECURITY DOMAINS
+🌐 1. NETWORK SECURITY
 
 Protects computer networks from unauthorized access and attacks.
 
-Examples: Firewalls, intrusion detection systems, network monitoring.
+Examples: Firewalls, IDS/IPS, Network Monitoring
 
-2. Application Security
+💻 2. APPLICATION SECURITY
 
-Protects software and applications from vulnerabilities.
+Protects software and applications from security vulnerabilities.
 
-Examples: Secure coding, vulnerability testing, web application security.
+Examples: Secure Coding, Vulnerability Testing, Web Security
 
-3. Information/Data Security
+🔒 3. DATA SECURITY
 
 Protects information from unauthorized access, modification, or destruction.
 
-Examples: Encryption, access control, data classification.
+Examples: Encryption, Access Control, Data Classification
 
-4. Identity and Access Management (IAM)
+👤 4. IDENTITY & ACCESS MANAGEMENT
 
 Controls who can access what.
 
-Examples: Passwords, multi-factor authentication (MFA), permissions.
+Examples: Passwords, MFA, User Permissions
 
-5. Cloud Security
+☁️ 5. CLOUD SECURITY
 
-Protects cloud-based infrastructure, applications, and data.
+Protects cloud infrastructure, applications, and data.
 
-Examples: Cloud access controls, encryption, security monitoring.
+Examples: Cloud Access Control, Encryption, Monitoring
 
-6. Endpoint Security
+🖥️ 6. ENDPOINT SECURITY
 
-Protects devices such as computers, laptops, smartphones, and servers.
+Protects devices such as:
 
-Examples: Antivirus/EDR, device management, security updates.
+Laptops • Desktops • Smartphones • Servers
 
-7. Security Operations
+🚨 7. SECURITY OPERATIONS
 
-Continuously monitors systems for suspicious activity and responds to incidents.
+Continuously monitors systems for suspicious activity.
 
-Examples: SOC, SIEM, threat monitoring.
+Examples: SOC, SIEM, Threat Monitoring
 
-8. Incident Response
+🧯 8. INCIDENT RESPONSE
 
-Deals with cybersecurity incidents when they occur.
+Handles cybersecurity incidents.
 
-Typical process:
+DETECT → ANALYZE → CONTAIN → ERADICATE → RECOVER → LEARN
+📋 9. GOVERNANCE, RISK & COMPLIANCE
 
-Detect → Analyze → Contain → Eradicate → Recover → Learn
+Ensures organizations follow:
 
-9. Governance, Risk and Compliance (GRC)
+Security Policies • Laws • Regulations • Standards
 
-Ensures that an organization follows security policies, laws, regulations, and standards.
+🕵️ 10. OFFENSIVE SECURITY
 
-10. Offensive Security
+Authorized security testing used to identify vulnerabilities.
 
-Authorized security testing used to discover weaknesses before attackers can exploit them.
+Examples: Ethical Hacking, Penetration Testing
 
-Examples: Penetration testing and ethical hacking.
+⚠️ E. MODERN THREAT LANDSCAPE
+🎣 1. PHISHING
 
-e. Modern Threat Landscape
+Attackers use fake emails, messages, or websites to trick users into revealing information.
 
-The modern threat landscape refers to the current types of cyber threats, attackers, vulnerabilities, and attack techniques that organizations and individuals face.
+🦠 2. MALWARE
 
-Some major threats include:
+Malware = Malicious Software
 
-1. Phishing
+Common Types:
 
-Attackers use fake emails, messages, or websites to trick people into revealing information.
+Virus • Worm • Trojan • Spyware • Ransomware
 
-Example: A fake bank message asking you to "verify" your account.
+🔐 3. PASSWORD ATTACKS
 
-2. Ransomware
+Attackers attempt to obtain or guess passwords.
 
-Malicious software that prevents access to data or systems and demands payment from victims.
+Protection:
 
-3. Malware
+Strong Passwords + MFA
 
-A general term for malicious software.
+🧠 4. SOCIAL ENGINEERING
 
-Types include:
+Attackers manipulate people into revealing information or performing unsafe actions.
 
-Viruses
-Worms
-Trojans
-Spyware
-Ransomware
-4. Password Attacks
+💰 5. RANSOMWARE
 
-Attackers may attempt to obtain or guess passwords through techniques such as password spraying or credential attacks.
+Malicious software that prevents access to systems or data and demands payment from victims.
 
-Protection: Strong unique passwords + MFA.
-
-5. Social Engineering
-
-Instead of attacking technology directly, attackers manipulate people into performing unsafe actions or revealing information.
-
-6. Web Application Attacks
+🌍 6. WEB APPLICATION ATTACKS
 
 Attackers exploit vulnerabilities in websites and web applications.
 
-Examples include:
+Examples: Injection, Authentication Weaknesses, XSS
 
-Injection attacks
-Authentication weaknesses
-Cross-site scripting (XSS)
-7. Insider Threats
+👤 7. INSIDER THREATS
 
-Security incidents can involve people who already have legitimate access to an organization's systems.
+Threats involving people who already have legitimate access to an organization's systems.
 
-8. Supply Chain Attacks
+🔗 8. SUPPLY CHAIN ATTACKS
 
-Attackers compromise a software provider, service provider, or other trusted component to reach its customers.
+Attackers compromise a trusted software provider or service to reach its customers.
 
-9. Cloud Security Threats
+☁️ 9. CLOUD SECURITY THREATS
 
-Misconfigured cloud services, stolen credentials, and insecure APIs can expose cloud resources and data.
+Common risks include:
 
-10. AI-Assisted Cyber Threats
+Misconfiguration • Stolen Credentials • Insecure APIs • Data Exposure
 
-Modern attackers can use AI to make phishing, social engineering, reconnaissance, and other malicious activities more scalable and convincing.
+🤖 10. AI-ASSISTED CYBER THREATS
 
-Quick Revision
-Topic	Key Point
-Cyber Security	Protecting digital systems, networks, devices and data
-Importance	Protects data, privacy, systems and services
-Information Security	Broader protection of information in any form
-Cyber Security Domains	Network, application, cloud, endpoint, IAM, SOC, GRC, etc.
-Modern Threats	Phishing, malware, ransomware, social engineering, supply-chain attacks, etc.
-CIA Triad	Confidentiality + Integrity + Availability
-One-line definition for exams
+Attackers can use AI to make activities such as phishing and social engineering more scalable and convincing.
 
-Cyber Security is the practice of protecting computers, networks, applications, devices, and digital information from unauthorized access, attacks, damage, and disruption.
+📚 QUICK REVISION
+🛡️ CYBER SECURITY
+
+Protect digital systems, networks, devices, applications, and data.
+
+🔐 CIA TRIAD
+
+Confidentiality + Integrity + Availability
+
+📘 INFORMATION SECURITY
+
+Protect information in any form.
+
+🌐 CYBER SECURITY DOMAINS
+
+Network • Application • Cloud • IAM • Endpoint • SOC • GRC • Offensive Security
+
+⚠️ MODERN THREATS
+
+Phishing • Malware • Ransomware • Social Engineering • Password Attacks • Supply Chain Attacks
+
+⭐ EXAM DEFINITION
+“Cyber Security is the practice of protecting computers, networks, applications, devices, and digital information from unauthorized access, cyberattacks, damage, and disruption.”
