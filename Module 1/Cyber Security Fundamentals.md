@@ -6,7 +6,7 @@
 
 ## 📌 What is Cyber Security?
 
-> Cyber Security is the practice of protecting computers, networks, applications, and data from unauthorized access, attacks, theft, or damage.
+Cyber Security is the practice of protecting computers, networks, applications, and data from unauthorized access, attacks, theft, or damage.
 
 ### 🎯 Goal
 
