@@ -134,4 +134,4 @@ An **attack vector** is the **path, method, or entry point** an attacker uses to
 | 🛣️ **Attack Vector** | The path used to carry out an attack |
 
 ## 🚀 Key Takeaway
-
+>A threat can use an attack vector to deliver an exploit against a vulnerability, creating risk and potentially causing damage.
