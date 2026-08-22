@@ -135,3 +135,9 @@ An **attack vector** is the **path, method, or entry point** an attacker uses to
 
 ## 🚀 Key Takeaway
 >A threat can use an attack vector to deliver an exploit against a vulnerability, creating risk and potentially causing damage.
+
+## 🔐 Cybersecurity Mindset
+**Identify → Analyze → Protect → Detect → Respond → Recover**
+
+### 📌 Remember
+>**Threat + Vulnerability + Exploit + Attack Vector = Potential Security Risk**
