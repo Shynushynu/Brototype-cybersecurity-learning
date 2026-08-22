@@ -132,3 +132,6 @@ An **attack vector** is the **path, method, or entry point** an attacker uses to
 | 🎯 **Risk** | The possibility and impact of harm |
 | 💥 **Exploit** | A method used to take advantage of a weakness |
 | 🛣️ **Attack Vector** | The path used to carry out an attack |
+
+## 🚀 Key Takeaway
+
