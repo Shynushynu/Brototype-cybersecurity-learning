@@ -120,14 +120,4 @@ An **attack vector** is the **path, method, or entry point** an attacker uses to
       💻 POTENTIAL
          DAMAGE
 
----
 
-## 🧠 Quick Difference
-
-| 🔐 Concept | 📖 Meaning |
-|---|---|
-| ⚠️ **Threat** | A potential source of harm |
-| 🕳️ **Vulnerability** | A weakness that can be exploited |
-| 🎯 **Risk** | The possibility and impact of harm |
-| 💥 **Exploit** | A method used to take advantage of a weakness |
-| 🛣️ **Attack Vector** | The path used to carry out an attack |
