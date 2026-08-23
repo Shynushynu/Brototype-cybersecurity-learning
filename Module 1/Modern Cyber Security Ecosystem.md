@@ -1,6 +1,6 @@
 # 🛡️ Understand Modern Cyber Security Ecosystem
 
-Modern cybersecurity is not handled by one person or one tool. It is an **ecosystem of teams, technologies, processes, and intelligence** working together to protect systems, detect threats, and respond to attacks.
+Modern cybersecurity is not handled by one person or one tool. It is an **ecosystem of teams, technologies, processes, and intelligence** working together to protect systems, detect threats, and respond to incidents effectively.
 
 ---
 
@@ -149,5 +149,26 @@ It helps organizations understand:
                   🟣 PURPLE TEAM
                 Collaboration &
                 Security Improvement
+```
 
+---
 
+# ⚡ Quick Difference
+
+| 🛡️ Team / Concept | 🎯 Main Purpose |
+|---|---|
+| 🏢 **SOC** | Monitor, detect, and respond to threats |
+| 🔵 **Blue Team** | Defend systems and networks |
+| 🔴 **Red Team** | Simulate authorized attacks |
+| 🟣 **Purple Team** | Combine attack and defense knowledge |
+| 🧠 **Threat Intelligence** | Understand and track cyber threats |
+
+---
+
+## 🎓 Easy Way to Remember
+
+- 🔴 **Red = Attack**
+- 🔵 **Blue = Defend**
+- 🟣 **Purple = Collaborate**
+- 🏢 **SOC = Monitor & Respond**
+- 🧠 **Threat Intelligence = Know the Threat**
