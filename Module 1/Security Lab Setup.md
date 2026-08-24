@@ -59,6 +59,7 @@ A VM can have its own:
              Tools         System
 ```
 >⭐ **Benefit:** You can experiment inside a VM without directly modifying your main operating system.
+---
 ## 🔒 c. Isolated Lab Environments
 
 ### 🛡️ What is Isolation?
