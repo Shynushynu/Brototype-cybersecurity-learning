@@ -98,3 +98,65 @@ This is especially important when studying:
              🔐 Lab     🧪 Test
 ```
 >⚠️ **Remember:** The purpose of isolation is to prevent experiments from unintentionally affecting real systems.
+---
+## 📸 d. Snapshot Management
+
+### 💡 What is a Snapshot?
+
+A **snapshot** saves the current state of a virtual machine so that you can return to it later.
+
+### 🔄 Typical Workflow
+
+```text
+        🧼 CLEAN VM
+            │
+            ▼
+       📸 TAKE SNAPSHOT
+            │
+            ▼
+       🧪 EXPERIMENT
+            │
+       ┌────┴────┐
+       │         │
+      ✅        ❌
+    Works    Problem
+       │         │
+       ▼         ▼
+   Continue   🔄 Restore
+              Snapshot
+                  │
+                  ▼
+             🧼 CLEAN VM
+```
+---
+### 📌 Snapshots are Useful Before:
+
+- 🛠️ Installing unfamiliar software
+- ⚙️ Changing system configurations
+- 🔐 Testing security tools
+- 🧪 Performing experiments
+- 🔄 Making major system changes
+
+> ⚠️ **Important:** Snapshots provide quick recovery, but they are **not a replacement for proper backups**.
+
+## 🛡️ e. Safe Security Testing Practices
+
+### 🚨 Golden Rule
+
+> **Only test systems that you own or have explicit permission to test.**
+
+### ✅ Good Practices
+
+- 🧪 Use dedicated lab VMs
+- 🔒 Keep experiments isolated
+- 📸 Take snapshots before major changes
+- 🌐 Avoid unauthorized testing
+- 🔑 Never use real passwords or sensitive information
+- 📝 Document your experiments
+- 🔄 Restore your lab after testing
+- 🛡️ Keep your host and virtualization software updated
+
+### 🎯 Main Goal
+
+> **Practice safely, stay authorized, and keep your experiments contained.**
+
