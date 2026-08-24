@@ -57,3 +57,42 @@ A VM can have its own:
           🐧 LINUX VM   🪟 WINDOWS VM
           🔐 Security     🧪 Testing
              Tools         System
+```
+## 🔒 c. Isolated Lab Environments
+
+### 🛡️ What is Isolation?
+
+An **isolated lab environment** keeps your cybersecurity experiments separated from your normal computer and network.
+
+This is especially important when studying:
+
+- 🦠 Suspicious files
+- 🌐 Network traffic
+- 🔍 Vulnerabilities
+- 🛡️ Security tools
+- 🧪 Controlled malware-analysis exercises
+
+### 🌐 Common Isolation Methods
+
+- 🔒 Host-only networking
+- 🕸️ Internal/private virtual networks
+- 🚧 Network segmentation
+- 🌐 Restricted internet access
+- 🔑 Dedicated test accounts
+
+### 🏗️ Basic Concept
+
+```text
+                 🌍 INTERNET
+                     │
+                     X
+                🚧 ISOLATION
+                     │
+              🖥️ HOST COMPUTER
+                     │
+              🔐 ISOLATED LAB
+                ┌────┴────┐
+                ▼         ▼
+             💻 VM 1    💻 VM 2
+             🔐 Lab     🧪 Test
+```
