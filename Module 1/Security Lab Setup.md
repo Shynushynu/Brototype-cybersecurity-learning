@@ -58,6 +58,7 @@ A VM can have its own:
           🔐 Security     🧪 Testing
              Tools         System
 ```
+>⭐ **Benefit:** You can experiment inside a VM without directly modifying your main operating system.
 ## 🔒 c. Isolated Lab Environments
 
 ### 🛡️ What is Isolation?
@@ -96,3 +97,4 @@ This is especially important when studying:
              💻 VM 1    💻 VM 2
              🔐 Lab     🧪 Test
 ```
+>⚠️ **Remember:** The purpose of isolation is to prevent experiments from unintentionally affecting real systems.
