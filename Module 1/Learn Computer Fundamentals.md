@@ -37,7 +37,7 @@ Storage keeps data **permanently**, even when the computer is turned off.
 
 ### 🔩 Hardware
 
-**Hardware** refers to the physical parts of a computer that you can touch.
+**Hardware** refers to the physical parts of a computer that you can touch**(Tangible)**.
 
 **Examples:**
 
