@@ -51,7 +51,7 @@ To manipulate victims into:
 
 ## 🔑 c. Credential Attacks
 
-**Credential attacks** are attempts to obtain or misuse usernames, passwords, or other authentication information.
+**Credential attacks** are attacks where an attacker tries to **steal, guess, or misuse someone's login information,** such as a username and password.
 
 ### 🔹 Common Types
 
