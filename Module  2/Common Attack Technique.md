@@ -8,7 +8,7 @@
 
 **Phishing** is a cyberattack where an attacker pretends to be a trusted person or organization to trick a victim into providing sensitive information.
 
-# 🎣 Types of Phishing
+## Types of Phishing
 
 > **Phishing** is a cyberattack where attackers pretend to be trusted people or organizations to trick users into revealing sensitive information.
 
