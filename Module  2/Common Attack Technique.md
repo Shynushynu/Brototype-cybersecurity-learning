@@ -171,7 +171,7 @@ Checking publicly exposed services on an authorized test system.
 
 ### 🎯 Goal
 
-To understand the target environment and identify potential weaknesses.
+To understand the target environment and identify potential weekness.
 
 ---
 
