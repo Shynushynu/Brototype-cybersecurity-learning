@@ -51,7 +51,9 @@ Targets HIGH-PROFILE people
 ---
 
 > 💡 **Remember:**
+
 > **Phishing → Spear Phishing → Whaling**
+
 > General target → Specific target → High-profile target
 
 
