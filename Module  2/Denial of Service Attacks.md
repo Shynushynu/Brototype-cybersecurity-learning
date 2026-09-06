@@ -34,7 +34,7 @@ A server can normally handle **1,000 requests** at once. If it receives far more
 
 ## c. Botnets 🤖
 
-A **botnet** is a network of computers or other internet-connected devices that have been compromised and can be controlled by an attacker.
+A **botnet** is a network of computers or other internet-connected devices that have been compromised and can be controlled by an attacker.(A group of multiple infected devices that are remotely controlled by an attacker.)
 
 Attackers may use botnets to send large amounts of traffic toward a target.
 
