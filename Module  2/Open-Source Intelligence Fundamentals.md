@@ -33,7 +33,7 @@ Public information gathering involves collecting useful information from **legal
 
 ## 🧠 c. Search Techniques
 
-Search techniques help investigators find information **quickly and accurately**.
+Search techniques are methods used to **find relevant, accurate, and useful information efficiently**.
 
 ### Common Techniques
 
