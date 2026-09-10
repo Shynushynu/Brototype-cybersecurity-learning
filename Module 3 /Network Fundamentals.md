@@ -187,9 +187,9 @@ Data is sent only to devices that have joined a particular multicast group.
 
 ## 🎯 4. Anycast Communication
 
-**One sender → One receiver from a group of possible receivers**
+**One sender → One best/nearest receiver from multiple servers.**
 
-The network delivers the data to one suitable destination, often the **nearest or best-performing server** according to routing.
+The network delivers the data to one suitable destination, often the **nearest or best-performing server** according to routing.The network uses routing information to choose the best available server.
 
 **Example:**
 
