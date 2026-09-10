@@ -141,6 +141,84 @@ A set of rules that devices follow to communicate.
 
 ---
 
+# 🌐 Types of Network Communication
+
+Network communication refers to the way devices exchange data with each other over a network.
+
+## 📡 1. Unicast Communication
+
+**One sender → One receiver**
+
+Data is sent from one device to one specific destination.
+
+**Example:**
+
+* Sending a file from one computer to another computer.
+* Loading a webpage from a web server.
+
+---
+
+## 📢 2. Broadcast Communication
+
+**One sender → All devices**
+
+Data is sent to all devices within a particular network or broadcast domain.
+
+**Example:**
+
+* An **ARP request** in an IPv4 local network.
+
+> ⚠️ Broadcast communication is generally limited to the local network and is not routed across the internet.
+
+---
+
+## 👥 3. Multicast Communication
+
+**One sender → A specific group of receivers**
+
+Data is sent only to devices that have joined a particular multicast group.
+
+**Example:**
+
+* Live video or audio streaming to a group of subscribed devices.
+* Some network routing protocols.
+
+---
+
+## 🎯 4. Anycast Communication
+
+**One sender → One receiver from a group of possible receivers**
+
+The network delivers the data to one suitable destination, often the **nearest or best-performing server** according to routing.
+
+**Example:**
+
+* Distributed DNS services.
+* Content delivery networks (CDNs).
+
+---
+
+## 📊 Quick Comparison
+
+| Communication Type | Sender |    Receiver | Example          |
+| ------------------ | -----: | ----------: | ---------------- |
+| **Unicast**        |      1 |           1 | File transfer    |
+| **Broadcast**      |      1 |         All | ARP request      |
+| **Multicast**      |      1 |       Group | Live streaming   |
+| **Anycast**        |      1 | One of many | DNS/CDN services |
+
+## 🧠 Easy Way to Remember
+
+* 🔵 **Unicast** → **One**
+* 🟠 **Broadcast** → **Everyone**
+* 🟢 **Multicast** → **A Group**
+* 🟣 **Anycast** → **Best/Nearest One**
+
+### 🔐 Cybersecurity Relevance
+
+Understanding network communication types is important in cybersecurity because attackers and defenders need to understand **how data moves between devices**. Concepts such as broadcast traffic, multicast traffic, and unicast connections are useful when analyzing **network traffic, attacks, vulnerabilities, and security events**.
+
+
 # 🔐 Network Protocols
 
 Protocols define **how devices communicate and exchange data**.
