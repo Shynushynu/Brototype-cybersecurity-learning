@@ -220,22 +220,29 @@ The network delivers the data to one suitable destination, often the **nearest o
 Understanding network communication types is important in cybersecurity because attackers and defenders need to understand **how data moves between devices**. Concepts such as broadcast traffic, multicast traffic, and unicast connections are useful when analyzing **network traffic, attacks, vulnerabilities, and security events**.
 
 
-# 🔐 Network Protocols
+# 🔐 Common Network Protocols and Port Numbers
 
-Protocols define **how devices communicate and exchange data**.
+| **Protocol** | **Port Number** | **Use**                                                                  |
+| ------------ | --------------: | ------------------------------------------------------------------------ |
+| **TCP/IP**   |               — | Suite of protocols used for communication over networks and the Internet |
+| **HTTP**     |          **80** | Used to access websites and transfer web data                            |
+| **HTTPS**    |         **443** | Secure web communication using encryption                                |
+| **DNS**      |          **53** | Converts domain names into IP addresses                                  |
+| **DHCP**     |     **67 / 68** | Automatically assigns IP addresses and network settings                  |
+| **FTP**      |          **21** | Used to transfer files between computers                                 |
+| **SSH**      |          **22** | Provides secure remote access to computers                               |
+| **SMTP**     |          **25** | Used to send emails between mail servers                                 |
 
-| Protocol   | Purpose                                      |
-| ---------- | -------------------------------------------- |
-| **TCP/IP** | Foundation of Internet communication         |
-| **HTTP**   | Transfers web resources                      |
-| **HTTPS**  | Secure web communication using TLS           |
-| **DNS**    | Resolves domain names to IP addresses        |
-| **DHCP**   | Automatically provides network configuration |
-| **FTP**    | Transfers files                              |
-| **SSH**    | Secure remote access                         |
-| **SMTP**   | Sends email                                  |
+## 🧠 Quick Memory
 
----
+* **HTTP** → 80
+* **HTTPS** → 443
+* **DNS** → 53
+* **DHCP** → 67 / 68
+* **FTP** → 21
+* **SSH** → 22
+* **SMTP** → 25
+
 
 ## 🌐 IP Address
 
