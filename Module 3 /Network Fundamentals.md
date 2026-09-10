@@ -220,7 +220,7 @@ The network delivers the data to one suitable destination, often the **nearest o
 Understanding network communication types is important in cybersecurity because attackers and defenders need to understand **how data moves between devices**. Concepts such as broadcast traffic, multicast traffic, and unicast connections are useful when analyzing **network traffic, attacks, vulnerabilities, and security events**.
 
 
-# 🔐 Common Network Protocols and Port Numbers
+## 🔐 Common Network Protocols and Port Numbers
 
 | **Protocol** | **Port Number** | **Use**                                                                  |
 | ------------ | --------------: | ------------------------------------------------------------------------ |
@@ -233,7 +233,7 @@ Understanding network communication types is important in cybersecurity because 
 | **SSH**      |          **22** | Provides secure remote access to computers                               |
 | **SMTP**     |          **25** | Used to send emails between mail servers                                 |
 
-## 🧠 Quick Memory
+### 🧠 Quick Memory
 
 * **HTTP** → 80
 * **HTTPS** → 443
