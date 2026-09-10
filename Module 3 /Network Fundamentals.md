@@ -262,7 +262,7 @@ IPv6 uses **128 bits**.
 
 ## 🆔 MAC Address
 
-A **MAC address** is a link-layer address associated with a network interface and is used for communication on local networks.
+A **MAC address** is a link-layer address associated with a network interface and is used for communication on local networks.A MAC address is like a unique ID number for a device's network connection.
 
 ### Example
 
