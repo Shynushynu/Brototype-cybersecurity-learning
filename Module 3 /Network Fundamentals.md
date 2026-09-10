@@ -306,7 +306,7 @@ IP Address + Port
 
 ## 📌 Definition
 
-**Network architecture** describes how network devices, services, and communication methods are **organized and connected**.
+Network architecture means how a network is **designed** and how its devices are **connected** and **communicate** with each other.
 
 ---
 
