@@ -207,7 +207,7 @@ The network delivers the data to one suitable destination, often the **nearest o
 | **Multicast**      |      1 |       Group | Live streaming   |
 | **Anycast**        |      1 | One of many | DNS/CDN services |
 
-**ARP = IP address → MAC address**
+>**ARP = IP address → MAC address**
 ## 🧠 Easy Way to Remember
 
 * 🔵 **Unicast** → **One**
