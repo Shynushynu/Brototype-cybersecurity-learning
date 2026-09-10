@@ -141,11 +141,11 @@ A set of rules that devices follow to communicate.
 
 ---
 
-# 🌐 Types of Network Communication
+## 🌐 Types of Network Communication
 
 Network communication refers to the way devices exchange data with each other over a network.
 
-## 📡 1. Unicast Communication
+### 📡 1. Unicast Communication
 
 **One sender → One receiver**
 
@@ -158,7 +158,7 @@ Data is sent from one device to one specific destination.
 
 ---
 
-## 📢 2. Broadcast Communication
+### 📢 2. Broadcast Communication
 
 **One sender → All devices**
 
@@ -172,7 +172,7 @@ Data is sent to all devices within a particular network or broadcast domain.
 
 ---
 
-## 👥 3. Multicast Communication
+### 👥 3. Multicast Communication
 
 **One sender → A specific group of receivers**
 
