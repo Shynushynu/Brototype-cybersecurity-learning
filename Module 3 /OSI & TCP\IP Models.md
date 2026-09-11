@@ -21,6 +21,7 @@
 |    **2** | 🔌 Data Link    | MAC addressing & frame delivery                |
 |    **1** | ⚡ Physical      | Transmits raw bits through cables, radio, etc. |
 
+>Code: Please do not tell secret password anyone
 ### 🧠 Memory Trick
 
 Remember the OSI layers using:
