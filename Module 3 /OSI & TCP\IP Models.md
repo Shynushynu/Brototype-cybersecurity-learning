@@ -27,7 +27,7 @@
 Remember the OSI layers using:
 
 >Code: **P**lease **D**o **N**ot **T**ell **S**ecret **P**assword **A**nyone
-# 🌐 OSI Model – Layer-by-Layer Data Flow
+## 🌐 OSI Model – Layer-by-Layer Data Flow
 
 When data is sent over a network, it passes through the **7 layers of the OSI model**.
 
