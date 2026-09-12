@@ -87,6 +87,7 @@ Responsible for:
 * Starting communication sessions
 * Maintaining sessions
 * Ending sessions
+>“**communication session**” means the **connection between two devices or applications that are communicating with each other.**
 
 ### 🚚 Transport Layer
 
