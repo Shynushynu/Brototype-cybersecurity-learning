@@ -209,7 +209,7 @@ Responsible for transmitting **raw bits** through:
 
 When data is sent from one device to another, it travels through the network layers.
 
-### 📤 Sender Side
+### 📤 Sender/Receiver Side
 
 ```text
         🖥️ Application
@@ -227,26 +227,6 @@ When data is sent from one device to another, it travels through the network lay
             Bits
               ↓
         🌐 NETWORK
-```
-
-### 📥 Receiver Side
-
-```text
-        🌐 NETWORK
-              ↓
-         ⚡ Physical
-            Bits
-              ↓
-        🔌 Data Link
-           Frame
-              ↓
-          🌐 Network
-           Packet
-              ↓
-        🚚 Transport
-          Segment
-              ↓
-        🖥️ Application
 ```
 
 ### 🔄 Data Transformation
