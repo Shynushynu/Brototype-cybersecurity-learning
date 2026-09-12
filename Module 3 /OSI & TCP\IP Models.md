@@ -27,6 +27,74 @@
 Remember the OSI layers using:
 
 >Code: **P**lease **D**o **N**ot **T**ell **S**ecret **P**assword **A**nyone
+# 🌐 OSI Model – Layer-by-Layer Data Flow
+
+When data is sent over a network, it passes through the **7 layers of the OSI model**.
+
+The data moves **down through the layers** on the sender's device and **up through the layers** on the receiver's device.
+
+---
+
+## 🔄 Data Flow Through OSI Layers
+
+### **7️⃣ Application Layer**
+
+The user requests a webpage or uses a network application.
+
+**Example:** HTTP, HTTPS, DNS, SMTP
+
+⬇️
+
+### **6️⃣ Presentation Layer**
+
+Data may be **translated, encoded, compressed, or encrypted**.
+
+**Example:** Data encryption and encoding
+
+⬇️
+
+### **5️⃣ Session Layer**
+
+Manages the **communication session between two applications/devices**.
+
+**Example:** Establishing, maintaining, and ending a communication session.
+
+⬇️
+
+### **4️⃣ Transport Layer**
+
+Provides **end-to-end communication** and may provide reliable delivery.
+
+**Example:** TCP divides data into segments and handles reliable delivery. UDP provides faster, connectionless delivery.
+
+⬇️
+
+### **3️⃣ Network Layer**
+
+Uses **IP addresses** to determine where data should go and routes packets between networks.
+
+**Example:** IP, Routers
+
+⬇️
+
+### **2️⃣ Data Link Layer**
+
+Handles communication on the **local network** using frames and MAC addresses.
+
+**Example:** Ethernet, Wi-Fi, Switches
+
+⬇️
+
+### **1️⃣ Physical Layer**
+
+Transmits data as **raw bits** using electrical, optical, or radio signals.
+
+**Example:** Ethernet cables, fiber-optic cables, radio signals
+
+
+---
+
+> 💡 **Note:** The OSI model is mainly a conceptual model used to understand networking and troubleshoot network problems. Modern Internet communication is more directly based on the **TCP/IP model**.
 
 
 ---
