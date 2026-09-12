@@ -120,6 +120,7 @@ The **TCP/IP model** is the practical networking model used for communication ov
 ### 🧠 Easy to Remember
 
 **TCP → Reliable & Ordered 📦✅**
+
 **UDP → Fast & Connectionless ⚡**
 
 ## 🔄 OSI vs TCP/IP
