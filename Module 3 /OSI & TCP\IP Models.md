@@ -26,9 +26,8 @@
 
 Remember the OSI layers using:
 
->Code: **Please Do Not Tell Secret Password Anyone**
+>Code: **P**lease **D**o **N**ot **T**ell **S**ecret **P**assword **A**nyone
 
-**A**ll **P**eople **S**eem **T**o **N**eed **D**ata **P**rocessing
 
 ---
 
