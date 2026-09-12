@@ -115,7 +115,7 @@ The **TCP/IP model** is the practical networking model used for communication ov
 ---
 ## 🔄 TCP vs UDP
 
-> **TCP** is a reliable, connection-oriented protocol that ensures data is delivered in the correct order, while **UDP** is a faster, connectionless protocol that does not guarantee delivery or order.
+**TCP** is a reliable, connection-oriented protocol that ensures data is delivered in the correct order, while **UDP** is a faster, connectionless protocol that does not guarantee delivery or order.
 
 ### 🧠 Easy to Remember
 
