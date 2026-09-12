@@ -207,7 +207,9 @@ Responsible for transmitting **raw bits** through:
 
 # 📦 d. Packet Flow
 
-When data is sent from one device to another, it travels through the network layers.
+When data is sent, each layer adds its own information.
+
+This process is called **Encapsulation**.
 
 ### 📤 Sender/Receiver Side
 
@@ -228,6 +230,7 @@ When data is sent from one device to another, it travels through the network lay
               ↓
         🌐 NETWORK
 ```
+At the destination, the reverse process (**Decapsulation**) removes these headers layer by layer until the original data is delivered.
 
 ### 🔄 Data Transformation
 
