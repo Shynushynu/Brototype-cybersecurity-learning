@@ -1,0 +1,256 @@
+# 🌐 3. Understand Network Protocols
+
+> 💡 **Network protocols** are a set of rules that define how devices **communicate, exchange, and transfer data** over a network.
+
+---
+
+## 🧩 Protocols Covered
+
+| #  | Protocol     | Main Purpose                    |
+| -- | ------------ | ------------------------------- |
+| 01 | 🌍 **HTTP**  | Web communication               |
+| 02 | 🔐 **HTTPS** | Secure web communication        |
+| 03 | 🌐 **DNS**   | Domain name resolution          |
+| 04 | ⚙️ **DHCP**  | Automatic network configuration |
+| 05 | 📁 **FTP**   | File transfer                   |
+| 06 | 📧 **SMTP**  | Sending emails                  |
+| 07 | 🖥️ **SSH**  | Secure remote access            |
+
+---
+
+# 🌍 01. HTTP
+
+### **HyperText Transfer Protocol**
+
+HTTP is a protocol used to **transfer web pages and other resources** between a client, such as a web browser, and a web server.
+
+```text
+🧑‍💻 Client
+    │
+    │  HTTP Request
+    ▼
+🌐 Web Server
+    │
+    │  HTTP Response
+    ▼
+🧑‍💻 Client
+```
+
+| Property      | Details                    |
+| ------------- | -------------------------- |
+| 🔢 Port       | `80`                       |
+| 🎯 Purpose    | Web communication          |
+| 🔐 Encryption | ❌ No encryption by default |
+
+---
+
+# 🔐 02. HTTPS
+
+### **HyperText Transfer Protocol Secure**
+
+HTTPS is the **secure version of HTTP**. It uses **TLS encryption** to protect data exchanged between the client and server.
+
+```text
+🧑‍💻 Client
+    │
+    │ 🔒 Encrypted HTTPS Request
+    ▼
+🌐 Web Server
+    │
+    │ 🔒 Encrypted HTTPS Response
+    ▼
+🧑‍💻 Client
+```
+
+| Property      | Details                  |
+| ------------- | ------------------------ |
+| 🔢 Port       | `443`                    |
+| 🎯 Purpose    | Secure web communication |
+| 🔐 Encryption | ✅ TLS                    |
+
+---
+
+# 🌐 03. DNS
+
+### **Domain Name System**
+
+DNS translates **domain names into IP addresses**, allowing devices to locate servers on a network.
+
+```text
+🌐 example.com
+       │
+       ▼
+   🔎 DNS Query
+       │
+       ▼
+📍 IP Address
+```
+
+| Property      | Details                  |
+| ------------- | ------------------------ |
+| 🔢 Port       | `53`                     |
+| 🎯 Purpose    | Domain name resolution   |
+| 🔄 Conversion | Domain Name → IP Address |
+
+> 🧠 **Think of DNS as the phonebook of the Internet.**
+
+---
+
+# ⚙️ 04. DHCP
+
+### **Dynamic Host Configuration Protocol**
+
+DHCP automatically provides devices with network configuration such as an **IP address, subnet mask, default gateway, and DNS server**.
+
+```text
+🧑‍💻 New Device
+      │
+      │ DHCP Request
+      ▼
+⚙️ DHCP Server
+      │
+      │ IP + Network Settings
+      ▼
+🧑‍💻 Device
+```
+
+| Property    | Details                         |
+| ----------- | ------------------------------- |
+| 🔢 Ports    | `67 / 68`                       |
+| 🎯 Purpose  | Automatic network configuration |
+| ⚙️ Provides | IP, Gateway, DNS, Subnet Mask   |
+
+---
+
+# 📁 05. FTP
+
+### **File Transfer Protocol**
+
+FTP is used to **transfer files between a client and a server** over a network.
+
+```text
+🧑‍💻 Client
+      │
+      │ 📁 FTP Connection
+      ▼
+🖥️ FTP Server
+      │
+      ├── 📄 Upload
+      └── 📥 Download
+```
+
+| Property      | Details           |
+| ------------- | ----------------- |
+| 🔢 Port       | `21`              |
+| 🎯 Purpose    | File transfer     |
+| 📂 Operations | Upload / Download |
+
+---
+
+# 📧 06. SMTP
+
+### **Simple Mail Transfer Protocol**
+
+SMTP is used to **send and relay emails** between mail clients and mail servers, and between mail servers.
+
+```text
+📧 Sender
+    │
+    ▼
+📤 SMTP Server
+    │
+    ▼
+📨 Recipient Mail Server
+    │
+    ▼
+📧 Recipient
+```
+
+| Property        | Details            |
+| --------------- | ------------------ |
+| 🔢 Common Ports | `25 / 465 / 587`   |
+| 🎯 Purpose      | Sending emails     |
+| 📧 Function     | Email transmission |
+
+> 🧠 **SMTP is mainly used for sending email.**
+
+---
+
+# 🖥️ 07. SSH
+
+### **Secure Shell**
+
+SSH provides a **secure and encrypted connection** to a remote computer. It is commonly used for remote administration and command-line access.
+
+```text
+🧑‍💻 Local Computer
+       │
+       │ 🔐 SSH Connection
+       ▼
+🖥️ Remote Server
+```
+
+| Property    | Details              |
+| ----------- | -------------------- |
+| 🔢 Port     | `22`                 |
+| 🎯 Purpose  | Secure remote access |
+| 🔐 Security | Encrypted            |
+
+---
+
+# 📊 Protocol & Port Reference
+
+| 🌐 Protocol | 📖 Full Form                        | 🎯 Main Use                | 🔢 Port          |
+| ----------- | ----------------------------------- | -------------------------- | ---------------- |
+| **HTTP**    | HyperText Transfer Protocol         | Web communication          | `80`             |
+| **HTTPS**   | HyperText Transfer Protocol Secure  | Secure web communication   | `443`            |
+| **DNS**     | Domain Name System                  | Domain → IP                | `53`             |
+| **DHCP**    | Dynamic Host Configuration Protocol | Automatic IP configuration | `67 / 68`        |
+| **FTP**     | File Transfer Protocol              | File transfer              | `21`             |
+| **SMTP**    | Simple Mail Transfer Protocol       | Sending emails             | `25 / 465 / 587` |
+| **SSH**     | Secure Shell                        | Secure remote access       | `22`             |
+
+---
+
+# 🧠 Quick Memory Guide
+
+```text
+🌍 HTTP   → Web
+🔐 HTTPS  → Secure Web
+🌐 DNS    → Domain → IP
+⚙️ DHCP   → Gives Network Configuration
+📁 FTP    → File Transfer
+📧 SMTP   → Send Email
+🖥️ SSH    → Secure Remote Access
+```
+
+---
+
+# 🔐 Why Protocols Matter in Cybersecurity
+
+Understanding network protocols helps cybersecurity professionals identify:
+
+* 🚨 Suspicious network traffic
+* 🔍 Unusual communication
+* ⚠️ Misconfigured services
+* 🔓 Unauthorized access
+* 🛡️ Potential attacks
+
+> 🎯 **Understanding normal network communication is the first step toward identifying abnormal or malicious activity.**
+
+---
+
+## 🏁 Summary
+
+```text
+Network Protocols
+       │
+       ├── 🌍 HTTP / HTTPS → Web
+       ├── 🌐 DNS          → Name Resolution
+       ├── ⚙️ DHCP         → Network Configuration
+       ├── 📁 FTP          → File Transfer
+       ├── 📧 SMTP         → Email
+       └── 🖥️ SSH          → Remote Access
+```
+
+> 🚀 **Learn the protocol → Understand the traffic → Detect the threat**
