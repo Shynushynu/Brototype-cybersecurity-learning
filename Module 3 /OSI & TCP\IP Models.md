@@ -229,6 +229,10 @@ This process is called **Encapsulation**.
             Bits
               ↓
         🌐 NETWORK
+              ↓
+        💻 Receiver
+              ↓
+            Bits → Frame → Packet → Segment → Data
 ```
 At the destination, the reverse process (**Decapsulation**) removes these headers layer by layer until the original data is delivered.
 
