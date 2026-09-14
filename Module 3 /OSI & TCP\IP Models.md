@@ -272,7 +272,7 @@ The OSI model can be used to troubleshoot network problems **layer by layer**.
 |    **7** | Application problem  | 🌍 DNS/HTTP error        |
 
 ---
-# 🌐 VLAN
+## 🌐 VLAN
 
 A **VLAN (Virtual Local Area Network)** is a logical network that divides a physical network into separate groups to improve **security, organization, and network management**.
 
