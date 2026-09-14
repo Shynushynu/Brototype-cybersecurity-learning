@@ -215,7 +215,7 @@ This process is called **Encapsulation**.
 
 ```text
         🖥️ Application
-              ↓
+              ↓ (Encapsulation)
         🚚 Transport
           Segment
               ↓
@@ -231,7 +231,7 @@ This process is called **Encapsulation**.
         🌐 NETWORK
               ↓
         💻 Receiver
-              ↓
+              ↓ (Decapsulation)
             Bits → Frame → Packet → Segment → Data
 ```
 At the destination, the reverse process (**Decapsulation**) removes these headers layer by layer until the original data is delivered.
