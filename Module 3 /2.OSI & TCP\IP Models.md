@@ -4,14 +4,14 @@
 > They divide network communication into different **layers**, with each layer performing a specific function.
 
 ---
-# 🧭 Topics Covered
+## 🧭 Topics Covered
 
 *
-## 🧩 a. OSI Model
+# 🧩 a. OSI Model
 
 **OSI (Open Systems Interconnection)** is a **7-layer reference model** used to understand how network communication works.
 
-### 🏗️ 7 Layers of the OSI Model
+## 🏗️ 7 Layers of the OSI Model
 
 | 🔢 Layer | 📌 Name         | ⚙️ Main Responsibility                         |
 | -------: | --------------- | ---------------------------------------------- |
@@ -101,11 +101,11 @@ Transmits data as **raw bits** using electrical, optical, or radio signals.
 
 ---
 
-## 🌐 b. TCP/IP Model
+# 🌐 b. TCP/IP Model
 
 The **TCP/IP model** is the practical networking model used for communication over the **Internet**.
 
-### 🏗️ TCP/IP Layers
+## 🏗️ TCP/IP Layers
 
 | 🔢 Layer | 📌 Name           | ⚙️ Main Responsibility                 |
 | -------: | ----------------- | -------------------------------------- |
@@ -141,7 +141,7 @@ The **TCP/IP model** is the practical networking model used for communication ov
 
 ---
 
-## ⚙️ c. Layer Responsibilities
+# ⚙️ c. Layer Responsibilities
 
 Each layer has a specific responsibility in network communication.
 
