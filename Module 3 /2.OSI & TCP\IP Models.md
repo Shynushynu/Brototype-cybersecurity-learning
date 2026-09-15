@@ -6,6 +6,14 @@
 ---
 ## 🧭 Topics Covered
 
+* 🔹 [**OSI Model**](#-a-osi-model)
+* 🔹 [**TCP/IP Model**](#-b-tcpip-model)
+* 🔹 [**Layer Responsibilities**](#-c-layer-responsibilities)
+* 🔹 [**Packet Flow**](#-d-packet-flow)
+* 🔹 [**Troubleshooting Concepts**](#-e-troubleshooting-concepts)
+
+---
+
 # 🧩 a. OSI Model
 
 **OSI (Open Systems Interconnection)** is a **7-layer reference model** used to understand how network communication works.
@@ -165,7 +173,7 @@ Responsible for:
 * Starting communication sessions
 * Maintaining sessions
 * Ending sessions
->“**communication session**” means the **connection between two devices or applications that are communicating with each other.**
+>"**communication session**" means the **connection between two devices or applications that are communicating with each other.**
 
 ### 🚚 Transport Layer
 
