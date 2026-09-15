@@ -4,7 +4,9 @@
 > They divide network communication into different **layers**, with each layer performing a specific function.
 
 ---
+# 🧭 Topics Covered
 
+*
 ## 🧩 a. OSI Model
 
 **OSI (Open Systems Interconnection)** is a **7-layer reference model** used to understand how network communication works.
