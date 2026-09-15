@@ -215,6 +215,7 @@ This process is called **Encapsulation**.
 
 ```text
         🖥️ Application
+             Data
               ↓ (Encapsulation)
         🚚 Transport
           Segment
