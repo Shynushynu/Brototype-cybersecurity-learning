@@ -6,7 +6,7 @@
 ---
 ## 🧭 Topics Covered
 
-* 🧩 a. OSI Model
+* 🧩 a. OSI Model](#🧩-a--OSI-model)
 # 🧩 a. OSI Model
 
 **OSI (Open Systems Interconnection)** is a **7-layer reference model** used to understand how network communication works.
