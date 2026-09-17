@@ -269,6 +269,8 @@ This process is called:
 
 # 🛠️ e. Troubleshooting Concepts
 
+>Network troubleshooting is the process of finding, identifying, and fixing problems that prevent devices, applications, or networks from communicating properly.
+
 The OSI model can be used to troubleshoot network problems **layer by layer**.
 
 | 🔢 Layer | ⚠️ Common Problem    | 💡 Example               |
