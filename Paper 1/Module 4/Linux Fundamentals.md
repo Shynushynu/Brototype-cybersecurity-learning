@@ -24,7 +24,7 @@ The **Linux ecosystem** includes the Linux kernel, distributions, command-line t
 
 ### 🔹 Linux Kernel
 
-The **kernel** is the core part of Linux. It manages:
+The **kernel** is the core part of Linux. It acts like a middleman between the hardware and the software. It manages:
 
 * CPU
 * Memory
