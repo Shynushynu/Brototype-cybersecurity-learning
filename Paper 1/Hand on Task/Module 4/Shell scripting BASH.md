@@ -301,32 +301,6 @@ case "$variable" in
 esac
 ```
 
-### 💡 Example
-
-```bash
-read -p "Enter a number: " number
-
-case "$number" in
-
-    1)
-        echo "One"
-        ;;
-
-    2)
-        echo "Two"
-        ;;
-
-    3)
-        echo "Three"
-        ;;
-
-    *)
-        echo "Other number"
-        ;;
-
-esac
-```
-
 ### 🧠 Important
 
 | Keyword | Purpose                   |
@@ -340,6 +314,200 @@ esac
 > 💡 `esac` is **`case` written backwards**.
 
 ---
+
+## 💻 Examples of Switch — `case`
+
+### 1. 📋 Menu Selection
+
+```bash
+#!/bin/bash
+
+echo "1. Start"
+echo "2. Stop"
+echo "3. Restart"
+echo "4. Exit"
+
+read -p "Choose an option: " choice
+
+case "$choice" in
+    1)
+        echo "Starting..."
+        ;;
+    2)
+        echo "Stopping..."
+        ;;
+    3)
+        echo "Restarting..."
+        ;;
+    4)
+        echo "Exiting..."
+        ;;
+    *)
+        echo "Invalid option"
+        ;;
+esac
+```
+
+---
+
+### 2. 🌐 Check a Protocol
+
+```bash
+#!/bin/bash
+
+read -p "Enter a protocol: " protocol
+
+case "$protocol" in
+    http)
+        echo "HTTP uses port 80"
+        ;;
+    https)
+        echo "HTTPS uses port 443"
+        ;;
+    ssh)
+        echo "SSH uses port 22"
+        ;;
+    ftp)
+        echo "FTP commonly uses port 21"
+        ;;
+    *)
+        echo "Unknown protocol"
+        ;;
+esac
+```
+
+---
+
+### 3. 🐧 Check Linux Distribution
+
+```bash
+#!/bin/bash
+
+read -p "Enter your distribution: " distro
+
+case "$distro" in
+    ubuntu)
+        echo "Ubuntu is Debian-based"
+        ;;
+    debian)
+        echo "Debian is a Linux distribution"
+        ;;
+    fedora)
+        echo "Fedora is RPM-based"
+        ;;
+    arch)
+        echo "Arch Linux is independently developed"
+        ;;
+    *)
+        echo "Unknown distribution"
+        ;;
+esac
+```
+
+---
+
+### 4. 🔤 Matching Multiple Values
+
+Multiple patterns can use the **same action**.
+
+```bash
+#!/bin/bash
+
+read -p "Enter a letter: " letter
+
+case "$letter" in
+    a|e|i|o|u)
+        echo "Vowel"
+        ;;
+    *)
+        echo "Not a vowel"
+        ;;
+esac
+```
+
+### 🧠 Meaning of `|`
+
+```bash
+a|e|i|o|u)
+```
+
+means:
+
+> `a` **OR** `e` **OR** `i` **OR** `o` **OR** `u`
+
+---
+
+### 5. 📁 Check File Extension
+
+```bash
+#!/bin/bash
+
+read -p "Enter a filename: " file
+
+case "$file" in
+    *.txt)
+        echo "Text file"
+        ;;
+    *.jpg|*.png)
+        echo "Image file"
+        ;;
+    *.sh)
+        echo "Bash script"
+        ;;
+    *.log)
+        echo "Log file"
+        ;;
+    *)
+        echo "Unknown file type"
+        ;;
+esac
+```
+
+### 🧠 Pattern Example
+
+```bash
+*.txt
+```
+
+means:
+
+> Any filename that ends with `.txt`.
+
+For example:
+
+```text
+notes.txt     ✅
+report.txt    ✅
+image.jpg     ❌
+```
+
+---
+
+### ⭐ Quick `case` Structure
+
+```text
+Input
+  ↓
+case
+  ↓
+┌───────────────┐
+│ Match Pattern │
+└───────┬───────┘
+        ↓
+    Run Action
+        ↓
+      `;;`
+        ↓
+   Next Pattern
+        ↓
+       `*`
+        ↓
+     Default
+        ↓
+      `esac`
+```
+
+> 🎯 **Remember:** Bash uses `case` instead of a traditional `switch` statement.
 
 # 📦 6. Arrays
 
