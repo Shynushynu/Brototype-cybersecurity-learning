@@ -28,6 +28,7 @@
 * [🔁 7. Looping Through an Array](#-7-looping-through-an-array)
 * [⚡ 8. Quick Reference](#-8-quick-reference)
 * [🧠 9. Important Bash Keywords](#-9-important-bash-keywords)
+* [🧮 10. Arithmetic Operations](#-10-arithmetic-operations)
 
 ---
 
@@ -670,6 +671,147 @@ in       → Defines patterns
 ;;       → Ends a case option
 esac     → Ends the case statement
 ```
+# 🧮 10. Arithmetic Operations
+
+Bash supports basic arithmetic operations using the **`$(( ... ))`** syntax.
+
+---
+
+## ➕ Addition
+
+```bash
+result=$((10 + 5))
+echo "$result"
+```
+
+**Output:**
+
+```text
+15
+```
+
+---
+
+## ➖ Subtraction
+
+```bash
+result=$((10 - 5))
+echo "$result"
+```
+
+**Output:**
+
+```text
+5
+```
+
+---
+
+## ✖️ Multiplication
+
+```bash
+result=$((10 * 5))
+echo "$result"
+```
+
+**Output:**
+
+```text
+50
+```
+
+> 💡 Use `*` for multiplication, not `x`.
+
+---
+
+## ➗ Division
+
+```bash
+result=$((10 / 5))
+echo "$result"
+```
+
+**Output:**
+
+```text
+2
+```
+
+> ⚠️ Bash performs integer division by default. For example, `5 / 2` gives `2`.
+
+---
+
+## 🔢 Modulus / Remainder
+
+The `%` operator returns the **remainder** after division.
+
+```bash
+result=$((10 % 3))
+echo "$result"
+```
+
+**Output:**
+
+```text
+1
+```
+
+---
+
+## 📦 Using Variables
+
+Arithmetic can also be performed using variables:
+
+```bash
+a=10
+b=5
+
+addition=$((a + b))
+subtraction=$((a - b))
+multiplication=$((a * b))
+division=$((a / b))
+remainder=$((a % b))
+
+echo "Addition: $addition"
+echo "Subtraction: $subtraction"
+echo "Multiplication: $multiplication"
+echo "Division: $division"
+echo "Remainder: $remainder"
+```
+
+---
+
+## 📋 Arithmetic Operators
+
+| Operation         | Operator | Syntax       |
+| ----------------- | -------: | ------------ |
+| ➕ Addition        |      `+` | `$((a + b))` |
+| ➖ Subtraction     |      `-` | `$((a - b))` |
+| ✖️ Multiplication |      `*` | `$((a * b))` |
+| ➗ Division        |      `/` | `$((a / b))` |
+| 🔢 Remainder      |      `%` | `$((a % b))` |
+
+---
+
+## 🧠 Important Syntax
+
+```bash
+$(( expression ))
+```
+
+Example:
+
+```bash
+result=$((10 + 20))
+```
+
+Here:
+
+* `$(( ))` → arithmetic expansion
+* `10 + 20` → arithmetic expression
+* `result=` → stores the result in a variable
+
+> 🎯 **Remember:** Use `$(( ))` when you need to perform arithmetic calculations in Bash.
 
 ---
 
