@@ -207,6 +207,108 @@ done
 ```bash
 for number in 1 2 3 4 5; do echo "$number"; done
 ```
+# 🔄 Bash `for` Loop — Condition Directly in `for`
+
+In Bash, you can use a **condition directly inside a C-style `for` loop**.
+
+## 💻 Basic Syntax
+
+```bash
+for ((initialization; condition; increment))
+do
+    commands
+done
+```
+
+### Example
+
+```bash
+for ((i=1; i<=10; i++))
+do
+    echo "$i"
+done
+```
+
+### 🧠 How It Works
+
+| Part    | Meaning                                       |
+| ------- | --------------------------------------------- |
+| `i=1`   | Starting value                                |
+| `i<=10` | Condition — loop continues while this is true |
+| `i++`   | Increase `i` by 1                             |
+
+### 📌 Output
+
+```text
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
+## 🔍 Using a Different Condition
+
+You can change the condition depending on what you need:
+
+```bash
+for ((i=10; i>=1; i--))
+do
+    echo "$i"
+done
+```
+
+Output:
+
+```text
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+```
+
+## ⚡ C-Style Support in Bash
+
+Bash supports C-style syntax mainly through arithmetic expressions.
+
+| Control Structure | C-Style Syntax              |
+| ----------------- | --------------------------- |
+| `for`             | ✅ Supported                 |
+| `if`              | ❌ Not exactly C-style       |
+| `while`           | ❌ Not exactly C-style       |
+| `case`            | ❌ Uses Bash-specific syntax |
+
+### 📝 Important
+
+The following is **C-style `for` syntax**, but it is still **Bash syntax**:
+
+```bash
+for ((i=1; i<=10; i++))
+do
+    echo "$i"
+done
+```
+
+Bash also allows arithmetic conditions such as:
+
+```bash
+if (( n > 10 )); then
+    echo "Greater than 10"
+fi
+```
+
+So Bash can sometimes **look similar to C**, but Bash is not C.
 
 ---
 
