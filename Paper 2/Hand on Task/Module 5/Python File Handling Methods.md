@@ -6,13 +6,18 @@ Python provides several file-handling methods to read, write, and manage files. 
 
 ## 📚 Methods Covered
 
-1. `seek()`
-2. `read()`
-3. `readline()`
-4. `readlines()`
-5. `write()`
-6. `writelines()`
-7. `tell()`
+- [📌 Overview](#-overview)
+- [📍 1. `seek()` — Move the File Pointer](#-1-seek--move-the-file-pointer)
+- [📖 2. `read()` — Read File Content](#-2-read--read-file-content)
+- [📄 3. `readline()` — Read One Line](#-3-readline--read-one-line)
+- [📋 4. `readlines()` — Read All Lines](#-4-readlines--read-all-lines)
+- [✍️ 5. `write()` — Write Content](#️-5-write--write-content)
+- [📝 6. `writelines()` — Write Multiple Strings](#-6-writelines--write-multiple-strings)
+- [📍 7. `tell()` — Find the File Pointer Position](#-7-tell--find-the-file-pointer-position)
+- [🔄 `seek()` vs `tell()`](#-seek-vs-tell)
+- [🧠 Quick Revision](#-quick-revision)
+- [🎯 Practice Question](#-practice-question)
+- [✅ Key Takeaway](#-key-takeaway)
 
 ---
 
