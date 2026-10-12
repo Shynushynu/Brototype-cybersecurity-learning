@@ -194,6 +194,19 @@ Each row behaves like a dictionary:
 
 **Remember:** Use `row["name"]` to access a value by its column name.
 
+## 📊 Difference Between `csv.reader()` and `csv.DictReader()`
+
+| Feature | `csv.reader()` | `csv.DictReader()` |
+|---|---|---|
+| Returns data as | Lists | Dictionaries |
+| Access data using | Index (`0`, `1`, `2`) | Column name (`"Name"`, `"Age"`) |
+| Uses the header row | As a normal row by default | As dictionary keys by default |
+| Best for | Simple row-by-row reading | Reading data using column names |
+
+### 🧠 Quick Memory Trick
+
+- **`csv.reader()`** → List → Index (`row[0]`)
+- **`csv.DictReader()`** → Dictionary → Key (`row["Name"]`)
 ---
 
 ## 6. `csv.DictWriter()` — Write Dictionaries to CSV
