@@ -15,6 +15,7 @@ CSV files store data in rows and columns, similar to a spreadsheet.
 - [4. `writerows()` — Write Multiple Rows](#4-writerows--write-multiple-rows)
 - [5. `csv.DictReader()` — Read Rows as Dictionaries](#5-csvdictreader--read-rows-as-dictionaries)
 - [6. `csv.DictWriter()` — Write Dictionaries to CSV](#6-csvdictwriter--write-dictionaries-to-csv)
+- [📊 Difference Between CSV Reader and Writer Methods](#-difference-between-csv-reader-and-writer-methods)
 - [7. `writeheader()` — Write Column Names](#7-writeheader--write-column-names)
 - [8. Handling Commas Inside Values](#8-handling-commas-inside-values)
 - [9. Understanding `newline=""`](#9-understanding-newline)
@@ -194,19 +195,6 @@ Each row behaves like a dictionary:
 
 **Remember:** Use `row["name"]` to access a value by its column name.
 
-## 📊 Difference Between `csv.reader()` and `csv.DictReader()`
-
-| Feature | `csv.reader()` | `csv.DictReader()` |
-|---|---|---|
-| Returns data as | Lists | Dictionaries |
-| Access data using | Index (`0`, `1`, `2`) | Column name (`"Name"`, `"Age"`) |
-| Uses the header row | As a normal row by default | As dictionary keys by default |
-| Best for | Simple row-by-row reading | Reading data using column names |
-
-### 🧠 Quick Memory Trick
-
-- **`csv.reader()`** → List → Index (`row[0]`)
-- **`csv.DictReader()`** → Dictionary → Key (`row["Name"]`)
 ---
 
 ## 6. `csv.DictWriter()` — Write Dictionaries to CSV
@@ -246,6 +234,62 @@ Sam,22
 - `writerows(users)` writes all the dictionary records.
 
 ---
+## 📊 Difference Between CSV Reader and Writer Methods
+
+| Feature | `csv.reader()` | `csv.DictReader()` | `csv.writer()` | `csv.DictWriter()` |
+|---|---|---|---|---|
+| Purpose | Reads CSV data | Reads CSV data as dictionaries | Writes CSV data | Writes dictionary data to CSV |
+| Data format | Lists | Dictionaries | Lists | Dictionaries |
+| Access data using | Index (`row[0]`) | Column name (`row["Name"]`) | List values | Dictionary keys |
+| Header handling | Reads the header as a normal row by default | Uses the first row as dictionary keys by default | Writes a header using `writerow()` | Writes a header using `writeheader()` |
+| Main methods | `reader()` | `DictReader()` | `writerow()`, `writerows()` | `writeheader()`, `writerow()`, `writerows()` |
+| Best for | Reading rows as lists | Reading rows by column name | Writing rows as lists | Writing rows as dictionaries |
+
+## 🧠 Quick Memory Trick
+
+- **`csv.reader()`** → Read → List → Index (`row[0]`)
+- **`csv.DictReader()`** → Read → Dictionary → Key (`row["Name"]`)
+- **`csv.writer()`** → Write → List → `writerow()`
+- **`csv.DictWriter()`** → Write → Dictionary → `writeheader()`
+
+## 💡 Simple Examples
+
+### 1. `csv.reader()`
+
+Reads CSV rows as lists.
+
+```python
+reader = csv.reader(file)
+```
+
+### 2. `csv.DictReader()`
+
+Reads CSV rows as dictionaries.
+
+```python
+reader = csv.DictReader(file)
+```
+
+### 3. `csv.writer()`
+
+Writes list data into a CSV file.
+
+```python
+writer = csv.writer(file)
+writer.writerow(["Alex", 19])
+```
+
+### 4. `csv.DictWriter()`
+
+Writes dictionary data into a CSV file.
+
+```python
+writer = csv.DictWriter(file, fieldnames=["Name", "Age"])
+writer.writeheader()
+writer.writerow({"Name": "Alex", "Age": 19})
+```
+
+**Remember:** `reader` and `DictReader` are used for reading, while `writer` and `DictWriter` are used for writing.
 
 ## 7. `writeheader()` — Write Column Names
 
