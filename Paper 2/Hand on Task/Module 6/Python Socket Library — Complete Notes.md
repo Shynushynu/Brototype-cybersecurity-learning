@@ -56,37 +56,36 @@ You do not need to install an external package to use the standard `socket` modu
 
 | Function / Method | Purpose |
 |---|---|
-| `socket.socket()` | Creates a socket. |
-| `socket.gethostname()` | Gets the local computer's hostname. |
-| `socket.gethostbyname()` | Resolves a hostname to an IPv4 address. |
-| `socket.gethostbyname_ex()` | Returns extended hostname and IPv4 address information. |
-| `socket.getaddrinfo()` | Resolves a hostname or address into connection-ready address information. |
-| `socket.getfqdn()` | Gets a fully qualified domain name where available. |
-| `socket.getservbyname()` | Finds a port number associated with a service name. |
-| `socket.getservbyport()` | Finds a service name associated with a port number. |
-| `connect()` | Connects a client socket to a remote endpoint. |
-| `bind()` | Associates a socket with a local address and port. |
-| `listen()` | Makes a TCP socket listen for incoming connections. |
-| `accept()` | Accepts an incoming connection. |
-| `send()` | Sends data through a connected socket. |
-| `sendall()` | Sends all supplied data or raises an error. |
-| `recv()` | Receives data from a socket. |
-| `sendto()` | Sends data to a specified destination, commonly with UDP. |
-| `recvfrom()` | Receives data and the sender's address, commonly with UDP. |
-| `close()` | Closes the socket. |
-| `shutdown()` | Disables sending, receiving, or both. |
-| `settimeout()` | Sets a timeout for socket operations. |
-| `gettimeout()` | Gets the current timeout setting. |
-| `getsockname()` | Gets the socket's local address. |
-| `getpeername()` | Gets the address of the connected remote endpoint. |
-| `setsockopt()` | Sets a socket option. |
-| `getsockopt()` | Gets a socket option. |
-| `makefile()` | Creates a file-like interface for a socket. |
-| `setblocking()` | Enables or disables blocking mode. |
-| `getblocking()` | Checks whether the socket is in blocking mode. |
-| `detach()` | Detaches and returns the underlying socket descriptor. |
-| `fileno()` | Returns the socket's file descriptor or handle. |
-
+| [`socket.socket()`](#1-socketsocket) | Creates a socket. |
+| [`socket.gethostname()`](#2-socketgethostname) | Gets the local computer's hostname. |
+| [`socket.gethostbyname()`](#3-socketgethostbyname) | Resolves a hostname to an IPv4 address. |
+| [`socket.gethostbyname_ex()`](#4-socketgethostbyname_ex) | Returns extended hostname and IPv4 address information. |
+| [`socket.getaddrinfo()`](#5-socketgetaddrinfo) | Resolves a hostname or address into connection-ready address information. |
+| [`socket.getfqdn()`](#6-socketgetfqdn) | Gets a fully qualified domain name where available. |
+| [`socket.getservbyname()`](#7-socketgetservbyname) | Finds a port number associated with a service name. |
+| [`socket.getservbyport()`](#8-socketgetservbyport) | Finds a service name associated with a port number. |
+| [`connect()`](#9-connect) | Connects a client socket to a remote endpoint. |
+| [`bind()`](#10-bind) | Associates a socket with a local address and port. |
+| [`listen()`](#11-listen) | Makes a TCP socket listen for incoming connections. |
+| [`accept()`](#12-accept) | Accepts an incoming connection. |
+| [`send()`](#13-send) | Sends data through a connected socket. |
+| [`sendall()`](#14-sendall) | Sends all supplied data or raises an error. |
+| [`recv()`](#15-recv) | Receives data from a socket. |
+| [`sendto()`](#16-sendto) | Sends data to a specified destination, commonly with UDP. |
+| [`recvfrom()`](#17-recvfrom) | Receives data and the sender's address, commonly with UDP. |
+| [`close()`](#18-close) | Closes the socket. |
+| [`shutdown()`](#19-shutdown) | Disables sending, receiving, or both. |
+| [`settimeout()`](#20-settimeout) | Sets a timeout for socket operations. |
+| [`gettimeout()`](#21-gettimeout) | Gets the current timeout setting. |
+| [`getsockname()`](#22-getsockname) | Gets the socket's local address. |
+| [`getpeername()`](#23-getpeername) | Gets the address of the connected remote endpoint. |
+| [`setsockopt()`](#24-setsockopt) | Sets a socket option. |
+| [`getsockopt()`](#25-getsockopt) | Gets a socket option. |
+| [`makefile()`](#26-makefile) | Creates a file-like interface for a socket. |
+| [`setblocking()`](#27-setblocking) | Enables or disables blocking mode. |
+| [`getblocking()`](#28-getblocking) | Checks whether the socket is in blocking mode. |
+| [`detach()`](#29-detach) | Detaches and returns the underlying socket descriptor. |
+| [`fileno()`](#30-fileno) | Returns the socket's file descriptor or handle. |
 ---
 
 # 🔍 4. Explanation of Each Function and Method
