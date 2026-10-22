@@ -1,7 +1,50 @@
 # 📧 Python `smtplib` Module
 
 ## 🔗 Anchor
+<a id="python-smtplib-module"></a>
+# 📧 Python `smtplib` Module
 
+<a id="overview"></a>
+## 📌 1. Overview
+
+<a id="important-classes-and-methods"></a>
+## 📚 2. Important Classes and Methods
+
+<a id="connecting-to-smtp-server"></a>
+## 🔌 3. Connecting to an SMTP Server
+
+<a id="authentication-login"></a>
+## 🔐 4. Authentication — `login()`
+
+<a id="sending-email-sendmail"></a>
+## 📤 5. Sending an Email — `sendmail()`
+
+<a id="sending-email-send-message"></a>
+## ✉️ 6. Sending an Email — `send_message()`
+
+<a id="enabling-encryption-starttls"></a>
+## 🔒 7. Enabling Encryption — `starttls()`
+
+<a id="closing-connection-quit"></a>
+## 🔌 8. Closing the Connection — `quit()`
+
+<a id="complete-gmail-security-alert"></a>
+## 🛡️ 9. Complete Example — Gmail Security Alert
+
+<a id="common-smtp-exceptions"></a>
+## ⚠️ 10. Common SMTP Exceptions
+
+<a id="handling-smtp-errors"></a>
+### Example: Handling SMTP Errors
+
+<a id="cybersecurity-applications"></a>
+## 🔐 11. Applications in Cybersecurity
+
+<a id="important-points"></a>
+## 📝 12. Important Points to Remember
+
+<a id="interview-answer"></a>
+## 🎯 13. Interview Answer
 <a id="python-smtplib-module"></a>
 
 ## 📌 1. Overview
