@@ -1,5 +1,23 @@
 # 🔐 Python System Monitoring & Automated Gmail Alert Project
 
+## 📑 Table of Contents
+
+- [📌 Project Overview](#-project-overview)
+- [🛠️ Technologies Used](#️-technologies-used)
+- [📂 Project Structure](#-project-structure)
+- [1️⃣ Understanding File Integrity Monitoring](#1️⃣-understanding-file-integrity-monitoring)
+- [2️⃣ Understanding the Gmail Alert Workflow](#2️⃣-understanding-the-gmail-alert-workflow)
+- [3️⃣ Configuring Gmail Credentials](#3️⃣-configuring-gmail-credentials)
+- [4️⃣ Testing Gmail SMTP Connectivity](#4️⃣-testing-gmail-smtp-connectivity)
+- [5️⃣ Creating `test_email.py`](#5️⃣-creating-test_emailpy)
+- [6️⃣ Integrating Gmail Alerts into `monitor.py`](#6️⃣-integrating-gmail-alerts-into-monitorpy)
+- [7️⃣ Testing the Complete Project](#7️⃣-testing-the-complete-project)
+- [8️⃣ Current Project Progress](#8️⃣-current-project-progress)
+- [🚀 Future Improvements](#-future-improvements)
+- [📚 What I Learned](#-what-i-learned)
+- [🏁 Conclusion](#-conclusion)
+
+  
 ## 📌 Project Overview
 
 This project uses Python to monitor file changes and send email alerts when a monitored file is modified.
