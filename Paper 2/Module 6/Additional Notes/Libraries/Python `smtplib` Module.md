@@ -16,7 +16,7 @@
 - [📝 12. Important Points to Remember](#-12-important-points-to-remember)
 - [🎯 13. Interview Answer](#-13-interview-answer)
 
-## 📌 1. Overview
+## 📌 Overview
 
 The `smtplib` module is a built-in Python library used to send emails through an SMTP (Simple Mail Transfer Protocol) server.
 
@@ -33,7 +33,7 @@ It allows Python programs to send automated emails, notifications, reports, and 
 
 ---
 
-## 📚 2. Important Classes and Methods
+## 📚 1. Important Classes and Methods
 
 | Class / Method | Definition |
 |---|---|
@@ -53,7 +53,7 @@ It allows Python programs to send automated emails, notifications, reports, and 
 
 ---
 
-## 🔌 3. Connecting to an SMTP Server
+## 🔌 2. Connecting to an SMTP Server
 
 ### Using `SMTP()`
 
@@ -88,7 +88,7 @@ Use either the STARTTLS approach or the SMTP_SSL approach, not both on the same 
 
 ---
 
-## 🔐 4. Authentication — `login()`
+## 🔐 3. Authentication — `login()`
 
 The `login()` method authenticates your email account with the SMTP server.
 
@@ -115,7 +115,7 @@ For Gmail, an App Password may be used when supported by your account configurat
 
 ---
 
-## 📤 5. Sending an Email — `sendmail()`
+## 📤 4. Sending an Email — `sendmail()`
 
 The `sendmail()` method sends a message through an SMTP connection.
 
@@ -154,7 +154,7 @@ server.sendmail(
 
 ---
 
-## ✉️ 6. Sending an Email — `send_message()`
+## ✉️ 5. Sending an Email — `send_message()`
 
 The `send_message()` method sends an email using an email message object.
 
@@ -186,7 +186,7 @@ server.send_message(msg)
 
 ---
 
-## 🔒 7. Enabling Encryption — `starttls()`
+## 🔒 6. Enabling Encryption — `starttls()`
 
 The `starttls()` method upgrades an existing SMTP connection to use TLS encryption.
 
@@ -215,7 +215,7 @@ TLS protects communication between your Python program and the SMTP server.
 
 ---
 
-## 🔌 8. Closing the Connection — `quit()`
+## 🔌 7. Closing the Connection — `quit()`
 
 The `quit()` method ends the SMTP session.
 
@@ -231,7 +231,7 @@ It sends the SMTP `QUIT` command and closes the session.
 
 ---
 
-## 🛡️ 9. Complete Example — Gmail Security Alert
+## 🛡️ 8. Complete Example — Gmail Security Alert
 
 ```python
 import smtplib
@@ -276,7 +276,7 @@ print("Security alert email sent.")
 
 ---
 
-## ⚠️ 10. Common SMTP Exceptions
+## ⚠️ 9. Common SMTP Exceptions
 
 | Exception | Definition |
 |---|---|
@@ -322,7 +322,7 @@ The variables `sender_email`, `app_password`, and `msg` must be defined before r
 
 ---
 
-## 🔐 11. Applications in Cybersecurity
+## 🔐 10. Applications in Cybersecurity
 
 ### File Integrity Monitoring
 Send an email when a monitored file's SHA-256 hash changes.
@@ -341,7 +341,7 @@ Send periodic reports containing monitoring results or security events.
 
 ---
 
-## 📝 12. Important Points to Remember
+## 📝 11. Important Points to Remember
 
 - `smtplib` is part of Python's standard library.
 - SMTP stands for Simple Mail Transfer Protocol.
@@ -355,7 +355,7 @@ Send periodic reports containing monitoring results or security events.
 
 ---
 
-## 🎯 13. Interview Answer
+## 🎯 12. Interview Answer
 
 **What is the `smtplib` module in Python?**
 
