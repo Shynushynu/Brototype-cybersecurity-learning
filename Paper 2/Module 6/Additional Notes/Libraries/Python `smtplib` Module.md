@@ -6,7 +6,7 @@
 - [🔌 2. Connecting to an SMTP Server](#-2-connecting-to-an-smtp-server)
 - [🔐 3. Authentication — `login()`](#-3-authentication--login)
 - [📤 4. Sending an Email — `sendmail()`](#-4-sending-an-email--sendmail)
-- [✉️ 5. Sending an Email — `send_message()`](#-5-sending-an-email--send_message)
+- [✉️ 5. Sending an Email — `send_message()`](#%EF%B8%8F-5-sending-an-email--send_message)
 - [🔒 6. Enabling Encryption — `starttls()`](#-6-enabling-encryption--starttls)
 - [🔌 7. Closing the Connection — `quit()`](#-7-closing-the-connection--quit)
 - [🛡️ 8. Complete Example — Gmail Security Alert](#️-8-complete-example--gmail-security-alert)
