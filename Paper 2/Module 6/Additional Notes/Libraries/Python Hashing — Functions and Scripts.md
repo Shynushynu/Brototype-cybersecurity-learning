@@ -129,30 +129,35 @@ This example introduces file change detection using hashes.
 
 ```python
 import hashlib
+import time
 
-def calculate_hash(file_path):
-    sha256 = hashlib.sha256()
-
-    with open(file_path, "rb") as file:
-        for data in iter(lambda: file.read(4096), b""):
+def CalculateHash(file_path):
+    sha256=hashlib.sha256()
+    with open(file_path,"rb")as file:
+        while True:
+            data=file.read(4096)
+            if not data:
+                break
             sha256.update(data)
-
-    return sha256.hexdigest()
-
-
-file_path = "test.txt"
-
-original_hash = calculate_hash(file_path)
-
-print("Original hash:", original_hash)
-
-# Calculate again to compare the file's contents.
-current_hash = calculate_hash(file_path)
-
-if original_hash == current_hash:
-    print("No changes detected.")
-else:
-    print("File has been modified!")
+    hashVal=sha256.hexdigest()
+    return hashVal
+try:
+    file_path="test.py"
+    OrginalHash=CalculateHash(file_path)
+    print("Orginal hash obtaied")
+    print("Monitoring:",file_path)
+    while True:
+        time.sleep(5)
+        hashVal=CalculateHash(file_path)
+        if hashVal!=OrginalHash:
+            print("Alert!! File content changed......")
+            OrginalHash=hashVal
+        else:
+            print("File unchanged")
+except FileNotFoundError:
+    print(f"File:{file_path} is not found")
+except KeyboardInterrupt:
+    print("Monitoring stoped...")
 ```
 
 ### 🔍 Explanation
