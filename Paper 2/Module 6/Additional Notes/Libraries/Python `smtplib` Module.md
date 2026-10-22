@@ -11,10 +11,9 @@
 - [🔌 7. Closing the Connection — `quit()`](#-7-closing-the-connection--quit)
 - [🛡️ 8. Complete Example — Gmail Security Alert](#️-8-complete-example--gmail-security-alert)
 - [⚠️ 9. Common SMTP Exceptions](#️-9-common-smtp-exceptions)
-- [🛠️ 10. Handling SMTP Errors](#️-10-handling-smtp-errors)
-- [🔐 11. Applications in Cybersecurity](#-11-applications-in-cybersecurity)
-- [📝 12. Important Points to Remember](#-12-important-points-to-remember)
-- [🎯 13. Interview Answer](#-13-interview-answer)
+- [🔐 10. Applications in Cybersecurity](#-10-applications-in-cybersecurity)
+- [📝 11. Important Points to Remember](#-11-important-points-to-remember)
+- [🎯 12. Interview Answer](#-12-interview-answer)
 
 ## 📌 Overview
 
