@@ -313,7 +313,7 @@ except KeyboardInterrupt:
 
 
 
-## 6.Additional project
+## 6. Additional project
 ### nMap Project
 ### 💻 Code
 
