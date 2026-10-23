@@ -311,17 +311,9 @@ except KeyboardInterrupt:
 
 ---
 
-## 6. Overall Progress
 
-| No. | Hands-on Task | Current Status |
-|---|---|---|
-| 1 | Log Analysis Automation | ⏳ Testing pending |
-| 2 | Security Monitoring Tool | ⏳ Testing pending |
-| 3 | Security Workflow Automation | ⏳ Implementation pending |
-| 4 | Automated Security Report Generation | ⏳ Testing pending |
-| 5 | File Integrity Monitoring and Email Alerts | ⏳ Testing pending |
 
-## Additional project
+## 6.Additional project
 ### nMap Project
 ### 💻 Code
 
