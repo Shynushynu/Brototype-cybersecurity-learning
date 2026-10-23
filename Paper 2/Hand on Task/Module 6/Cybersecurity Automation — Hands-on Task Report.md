@@ -321,6 +321,104 @@ except KeyboardInterrupt:
 | 4 | Automated Security Report Generation | ⏳ Testing pending |
 | 5 | File Integrity Monitoring and Email Alerts | ⏳ Testing pending |
 
+## Additional project
+### nMap Project
+### 💻 Code
+
+```python
+import socket 
+
+while True:
+    url=str(input("Enter the url or the ip address(eg:google.com):")).strip()
+    if not url:
+        print("Enter a url or an ip:")
+        continue
+    try:
+        ip=socket.gethostbyname(url)
+        print("ip address resolved ",ip)
+        break
+    except socket.gaierror:
+        print("unalble to resolve host name...")
+
+while True:
+    try:
+        start=int(input("enter the staring port number:"))
+        if not 1<= start <=65535:
+            print("enter a vaild port number")
+        else:
+            print("port number accepted sucessfully......")
+            break
+    except ValueError:
+        print("enter and integer")
+  
+while True:
+    try:
+        end=int(input("Enter the ending port number:"))
+        if not 1<= end <=65535:
+            print("enter a vaild port number")
+        elif start>end:
+            print("Error occured....End port is smaller than start...")
+        else:
+            print("port number accepted sucessfully....")
+            break
+    except ValueError:
+        print("enter and integer")
+
+
+openports=0
+close=0
+timeout=0
+total=0
+countError=0
+openlist=[]
+for port in range(start,end+1):
+    try:
+        client=socket.socket()
+        client.settimeout(3)
+        client.connect((ip,port))
+        print(f"port {port} is open")
+        openports+=1
+        openlist.append(port)
+    except socket.timeout:
+        print(f"time out on port {port}")
+        timeout+=1
+    except ConnectionRefusedError:
+        print(f"connection refused on {port}")
+        close+=1
+    except OSError as error:
+        print(f"socket error on port {port}:{error}")
+        
+    
+    finally:
+        total+=1
+        client.close()
+
+
+print("\n" + "=" * 45)
+print("             TCP PORT SCAN REPORT")
+print("=" * 45)
+
+print(f"Total Ports Checked : {total}")
+print(f"Open Ports          : {openports}")
+print(f"Closed Ports        : {close}")
+print(f"Connection Timeouts : {timeout}")
+print(f"Errors Occurred     : {countError}")
+
+print("-" * 45)
+
+if not openlist:
+    print("No usable ports found!")
+else:
+    print("Usable Ports:")
+    for port in openlist:
+        print(f"  [+] Port {port}")
+
+print("=" * 45)
+print("              SCAN COMPLETED")
+print("=" * 45)
+
+```
+
 ## 🎯 Next Steps
 
 1. Test the log analysis script with sample security logs.
