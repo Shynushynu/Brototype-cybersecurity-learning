@@ -25,14 +25,25 @@ Hashing is designed to be a **one-way operation**. You cannot decrypt a hash to 
 
 ## 📚 Table of Contents
 
-1. [Basic Hashing Process](#1-basic-hashing-process)
-2. [Techniques Used by Hashing Algorithms](#2-techniques-used-by-hashing-algorithms)
-3. [Important Mathematical Operations](#3-important-mathematical-operations)
-4. [SHA-256: A Closer Look](#4-sha-256-a-closer-look)
-5. [Calculate SHA-256 Using Python](#5-calculate-sha-256-using-python)
-6. [Hashing vs Encryption](#6-hashing-vs-encryption)
-7. [Interview Questions](#7-interview-questions)
-8. [Quick Revision](#8-quick-revision)
+1. [🔄 Basic Hashing Process](#1--basic-hashing-process)
+2. [🧠 Techniques Used by Hashing Algorithms](#2--techniques-used-by-hashing-algorithms)
+   - [SHA-256](#21-sha-256-sha-2-family)
+   - [SHA-512](#22-sha-512-sha-2-family)
+   - [SHA-3](#23-sha-3-keccak)
+   - [MD5](#24-md5)
+   - [BLAKE2 and BLAKE3](#25-blake2-and-blake3)
+   - [Hashing Algorithm Comparison](#-hashing-algorithm-comparison)
+3. [⚙️ Important Mathematical Operations](#3--important-mathematical-operations)
+   - [XOR](#31-xor-exclusive-or)
+   - [AND](#32-and)
+   - [Bit Rotation](#33-bit-rotation)
+   - [Modular Addition](#34-modular-addition)
+   - [Choice and Majority Functions](#35-choice-and-majority-functions)
+4. [🔍 SHA-256: A Closer Look](#4--sha-256-a-closer-look)
+5. [🐍 Calculate SHA-256 Using Python](#5--calculate-sha-256-using-python)
+6. [🔒 Hashing vs Encryption](#6--hashing-vs-encryption)
+7. [🎤 Interview Questions](#7--interview-questions)
+8. [⚡ Quick Revision](#8--quick-revision)
 
 ---
 
